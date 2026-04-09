@@ -12,7 +12,7 @@ export default defineConfig(({mode}) => {
     },
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, './src'),
+        // Removed @ alias to favor relative imports for local compatibility
       },
     },
     server: {
