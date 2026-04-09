@@ -1,0 +1,5 @@
+{
+  "name": "PostureGuard AI Dashboard",
+  "description": "A production-grade posture monitoring dashboard with real-time insights, weekly analytics, and automated alert tracking.",
+  "requestFramePermissions": ["camera"]
+}
