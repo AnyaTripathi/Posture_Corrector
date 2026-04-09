@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { motion } from 'motion/react';
 import { Camera, CameraOff, Maximize2, Settings, Scan } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { cn } from '@/lib/utils';
+import { Button } from './ui/button';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './ui/card';
+import { Badge } from './ui/badge';
+import { cn } from '../lib/utils';
 
 export default function LiveFeed() {
   const [isActive, setIsActive] = React.useState(true);

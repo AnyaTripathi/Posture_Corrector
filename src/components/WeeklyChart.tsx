@@ -10,7 +10,7 @@ import {
   AreaChart,
   Area
 } from 'recharts';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './ui/card';
 
 const data = [
   { day: 'Mon', score: 85, alerts: 12 },

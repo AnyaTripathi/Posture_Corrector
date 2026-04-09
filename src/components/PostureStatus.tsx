@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { motion } from 'motion/react';
 import { CheckCircle2, AlertCircle, Timer, Activity } from 'lucide-react';
-import { cn } from '@/lib/utils';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { PostureStatus as StatusType } from '@/types';
+import { cn } from '../lib/utils';
+import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
+import { PostureStatus as StatusType } from '../types';
 
 interface PostureStatusProps {
   status: StatusType;

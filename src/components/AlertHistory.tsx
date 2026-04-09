@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { format } from 'date-fns';
 import { AlertTriangle, Clock, Info, ChevronRight } from 'lucide-react';
-import { cn } from '@/lib/utils';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { ScrollArea } from '@/components/ui/scroll-area';
-import { PostureAlert } from '@/types';
+import { cn } from '../lib/utils';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './ui/card';
+import { Badge } from './ui/badge';
+import { ScrollArea } from './ui/scroll-area';
+import { PostureAlert } from '../types';
 
 const mockAlerts: PostureAlert[] = [
   { id: '1', timestamp: Date.now() - 1000 * 60 * 5, type: 'slouching', duration: 45, severity: 'medium' },

@@ -13,11 +13,11 @@ import {
   X,
   ChevronRight
 } from 'lucide-react';
-import { cn } from '@/lib/utils';
-import { Button } from '@/components/ui/button';
-import { ScrollArea } from '@/components/ui/scroll-area';
-import { Separator } from '@/components/ui/separator';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { cn } from '../lib/utils';
+import { Button } from './ui/button';
+import { ScrollArea } from './ui/scroll-area';
+import { Separator } from './ui/separator';
+import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
 
 interface NavItemProps {
   key?: string;

@@ -1,4 +1,4 @@
-import { PostureAlert, PostureSession, UserProfile } from '@/types';
+import { PostureAlert, PostureSession, UserProfile } from '../types';
 
 const STORAGE_KEYS = {
   ALERTS: 'posture_alerts',

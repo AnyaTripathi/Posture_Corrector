@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Bell, Shield, Eye, Moon, Sun, Smartphone, Laptop, Save } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Label } from '@/components/ui/label';
-import { Button } from '@/components/ui/button';
-import { Separator } from '@/components/ui/separator';
-import { postureService } from '@/services/postureService';
-import { UserProfile } from '@/types';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './ui/card';
+import { Label } from './ui/label';
+import { Button } from './ui/button';
+import { Separator } from './ui/separator';
+import { postureService } from '../services/postureService';
+import { UserProfile } from '../types';
 
 export default function SettingsView() {
   const [user, setUser] = React.useState<UserProfile | null>(null);

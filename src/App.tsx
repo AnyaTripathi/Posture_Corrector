@@ -1,17 +1,17 @@
 import * as React from 'react';
 import { AnimatePresence, motion } from 'motion/react';
-import DashboardLayout from '@/components/DashboardLayout';
-import PostureStatus from '@/components/PostureStatus';
-import WeeklyChart from '@/components/WeeklyChart';
-import AlertHistory from '@/components/AlertHistory';
-import LiveFeed from '@/components/LiveFeed';
-import SettingsView from '@/components/SettingsView';
-import Login from '@/components/Login';
-import { PostureAlert, PostureStatus as StatusType } from '@/types';
-import { postureService } from '@/services/postureService';
-import { cn } from '@/lib/utils';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import DashboardLayout from './components/DashboardLayout';
+import PostureStatus from './components/PostureStatus';
+import WeeklyChart from './components/WeeklyChart';
+import AlertHistory from './components/AlertHistory';
+import LiveFeed from './components/LiveFeed';
+import SettingsView from './components/SettingsView';
+import Login from './components/Login';
+import { PostureAlert, PostureStatus as StatusType } from './types';
+import { postureService } from './services/postureService';
+import { cn } from './lib/utils';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './components/ui/card';
+import { Button } from './components/ui/button';
 import { Activity, Shield, Zap, Target } from 'lucide-react';
 
 export default function App() {

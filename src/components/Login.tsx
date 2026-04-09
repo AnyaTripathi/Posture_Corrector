@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { motion } from 'motion/react';
 import { LayoutDashboard, Mail, Lock, ArrowRight, Github, Chrome } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card';
-import { Label } from '@/components/ui/label';
+import { Button } from './ui/button';
+import { Input } from './ui/input';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from './ui/card';
+import { Label } from './ui/label';
 
 interface LoginProps {
   onLogin: (email: string) => void;
