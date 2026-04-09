@@ -4,7 +4,7 @@ import { Camera, CameraOff, Maximize2, Settings, Scan } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './ui/card';
 import { Badge } from './ui/badge';
-import { cn } from '../lib/utils';
+import { cn } from '../../lib/utils';
 
 export default function LiveFeed() {
   const [isActive, setIsActive] = React.useState(true);

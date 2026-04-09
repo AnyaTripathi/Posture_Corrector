@@ -9,7 +9,7 @@ import SettingsView from './components/SettingsView';
 import Login from './components/Login';
 import { PostureAlert, PostureStatus as StatusType } from './types';
 import { postureService } from './services/postureService';
-import { cn } from './lib/utils';
+import { cn } from '../lib/utils';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './components/ui/card';
 import { Button } from './components/ui/button';
 import { Activity, Shield, Zap, Target } from 'lucide-react';
